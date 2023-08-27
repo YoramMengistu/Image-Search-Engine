@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+}
+header {
+  min-height: 26vh;
+}
+header .logo-name {
+  display: flex;
+  padding: 30px 27px;
+  margin-left: 170px;
+  align-items: center;
+}
+header .logo-name i {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+main .project-title {
+  background: linear-gradient(to right, rgb(63, 43, 150), rgb(168, 192, 255));
+  min-height: 260px;
+  min-height: 260px;
+  margin-top: -5px;
+  padding: 13rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .project-title h1 {
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 6px;
+}
+.button a {
+  border: none;
+  outline: none;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
